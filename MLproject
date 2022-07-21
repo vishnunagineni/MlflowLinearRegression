@@ -5,6 +5,10 @@ conda_env: conda.yaml
 entry_points:
   main:
     parameters:
+<<<<<<< HEAD
       alpha: {type: float, default: 0.1}
+=======
+      alpha: {type: float, default:0.5}
+>>>>>>> 8caad3d761d31178d4faa966e8691b0e10b13f94
       l1_ratio: {type: float, default: 0.1}
-    command: "python linearregression.py {alpha} {l1_ratio}"
+    command: "python linearregression.py"
