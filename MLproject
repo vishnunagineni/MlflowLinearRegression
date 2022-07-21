@@ -7,4 +7,4 @@ entry_points:
     parameters:
       alpha: {type: float, default:0.5}
       l1_ratio: {type: float, default: 0.1}
-    command: "python linearregression.py {alpha} {l1_ration}"
+    command: "python linearregression.py {alpha} {l1_ratio}"
